@@ -15,7 +15,7 @@ class App extends Component {
 	}
 
 	componentDidMount() {
-		fetch('https://blackburzum.github.io/datos/users.json')
+		fetch('https://rafaelmmurga.github.io/datos/users.json')
 		.then(response => response.json())
 		.then(users    => 	this.setState({robots: users}) )
 		
